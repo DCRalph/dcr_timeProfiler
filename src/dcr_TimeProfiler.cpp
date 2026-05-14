@@ -1,12 +1,12 @@
-#include "timeProfiler/TimeProfiler.h"
+#include "dcr_TimeProfiler.h"
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
 #include <set>
-#include <logger/Logger.h>
-#include <taskManager/FreeRtosRaii.h>
-#include <taskManager/MutexRegistry.h>
-#include <taskManager/TaskManager.h>
-#include <fatalHandler/FatalHandler.h>
+#include <dcr_Logger.h>
+#include <dcr_taskManager/FreeRtosRaii.h>
+#include <dcr_taskManager/MutexRegistry.h>
+#include <dcr_TaskManager.h>
+#include <dcr_FatalHandler.h>
 
 #undef LOG_TAG
 #define LOG_TAG "TPROF"

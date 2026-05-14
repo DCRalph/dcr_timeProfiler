@@ -1,7 +1,7 @@
 #pragma once
 
 #include <Arduino.h>
-#include <logger/Logger.h>
+#include <dcr_Logger.h>
 #include <freertos/FreeRTOS.h>
 #include <freertos/task.h>
 #include <cstring>
