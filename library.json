@@ -1,6 +1,7 @@
 {
   "name": "dcr_time_profiler",
   "version": "1.0.0",
+  "license": "AGPL-3.0",
   "description": "ESP32 timing and call-rate profiler.",
   "keywords": "esp32, arduino, profiler, timing, metrics",
   "frameworks": "arduino",
